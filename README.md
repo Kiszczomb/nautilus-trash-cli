@@ -10,6 +10,15 @@ command line utility to the right-click menu:
     for current direstory, where user can select file to restore. Curently script
     is able to launch kgx, gnome-terminal or xterm to perform that
 
+### Motivation
+
+There's currently some bug causing trash to not work on mounted btrfs subvolumes. 
+The ```gio trash``` command, which Nautilus is using in the background to manage trash command 
+results in error ```Trashing on system internal mounts is not supported```.
+There is an open issue on Gnome gitlab ([#1885](https://gitlab.gnome.org/GNOME/glib/-/issues/1885)),
+but for now no change in this manner is visible. This script fixes that problem partialy, by
+using ```trash-cli``` instead.
+
 ## Install Extension
 
 ```
