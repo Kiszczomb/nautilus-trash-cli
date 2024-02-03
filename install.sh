@@ -50,7 +50,7 @@ rm -f ~/.local/share/nautilus-python/extensions/nautilus-trash-cli.py
 
 # Download and install the extension
 echo "Downloading newest version..."
-wget --show-progress -q -O ~/.local/share/nautilus-python/extensions/nautilus-trash-cli.py https://raw.githubusercontent.com/Kiszczomb/nautilus-trash-cli/master/nautilus-trash-cli.py
+wget --show-progress -q -O ~/.local/share/nautilus-python/extensions/nautilus-trash-cli.py https://raw.githubusercontent.com/Kiszczomb/nautilus-trash-cli/main/nautilus-trash-cli.py
 
 # Restart nautilus
 echo "Restarting nautilus..."
