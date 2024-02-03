@@ -16,3 +16,8 @@ command line utility to the right-click menu:
 wget -qO- https://raw.githubusercontent.com/Kiszczomb/nautilus-trash-cli/main/install.sh | bash
 ```
 
+## Uninstall Extension
+
+```
+rm -f ~/.local/share/nautilus-python/extensions/code-nautilus.py
+```
