@@ -28,5 +28,5 @@ wget -qO- https://raw.githubusercontent.com/Kiszczomb/nautilus-trash-cli/main/in
 ## Uninstall Extension
 
 ```
-rm -f ~/.local/share/nautilus-python/extensions/code-nautilus.py
+rm -f ~/.local/share/nautilus-python/extensions/nautilus-trash-cli.py
 ```
